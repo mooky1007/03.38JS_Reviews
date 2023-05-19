@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>38JS - Reviews</title>
+    <script src="https://kit.fontawesome.com/e4e94b66e3.js" crossorigin="anonymous"></script>
+    <script src="./review.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Best Reviews</h1>
+        <div class="review_container">
+            <ul class="review_wrapper">
+                <li class="review_item">
+                    <div class="image_box">
+                        <img src="https://images.unsplash.com/photo-1682687982134-2ac563b2228b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="image01">
+                    </div>
+                    <div class="text_box">
+                        <h2 class="review_title">Review Title01</h2>
+                        <p class="review_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </li>
+                <li class="review_item">
+                    <div class="image_box">
+                        <img src="https://images.unsplash.com/photo-1682686581030-7fa4ea2b96c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="image02">
+                    </div>
+                    <div class="text_box">
+                        <h2 class="review_title">Review Title02</h2>
+                        <p class="review_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </li>
+                <li class="review_item">
+                    <div class="image_box">
+                        <img src="https://images.unsplash.com/photo-1682687982502-1529b3b33f85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="image03">
+                    </div>
+                    <div class="text_box">
+                        <h2 class="review_title">Review Title03</h2>
+                        <p class="review_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="button_wrap">
+            <button type="button" data-action="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button type="button" data-action="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <script>
+        const review = new Reviews('.container');
+    </script>
+</body>
+</html>
